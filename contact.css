@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: white;
+            padding: 0;
+            min-height: 100vh; 
+        }
+
+    header {
+    position: relative;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    background: white;
+    color: #3a3838;
+    padding: 0;
+
+    }
+header .balek{
+    position: absolute;
+    left: 45px;           
+    top: 50%;
+    transform: translateY(-50%); 
+    color: #000;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 0;
+    padding: 4px;
+    cursor: pointer;
+}
+header .porto{
+    font-family: dm;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1.05;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header .site{
+    font-family:dm;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1.1;
+    padding-top: 0;
+}
+header .author {
+    font-size: 8px;
+    font-family:"Zalando Sans Expanded", sans-serif;
+}
+header .kontak{
+    position: absolute;
+    right: 60px;           
+    top: 50%;
+    transform: translateY(-50%); 
+    color: #000;
+    margin: 0;
+    cursor: pointer;
+}
+
+.quote{
+    color: #ffffff;
+    display: flex;
+    background-color: rgb(29, 29, 29);
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.quotenya{
+    flex: 2; 
+    font-size: 25px;
+    padding: 20px;
+    font-family: dm;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.phema{
+    color: #ffffff;
+    font-size: 10px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+.sd{
+    text-decoration: none;
+    color: #000;
+}
+.potot{
+    padding-top: 80px;
+    width: 250px;
+    height: 450px;
+}
+
+.contak {
+    padding: 30px;
+    text-align: left;
+}
+
+.contak h1{
+    font-size: 50px;
+    font-family: dm;
+    font-weight: 50px;
+}
+.contak p{
+    font-size: 13px;
+}
+
+.orange{
+     margin-top: 20px;
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+        background-color: blanchedalmond;
+        border-radius: 40px;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        letter-spacing: 0.2rem;
+        font-weight: 100px;
+        border: 2px solid rgb(0, 0, 0);
+        transition: 0.3s ease;
+        cursor: pointer;
+    }
+
+    .orange:hover{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 252, 252);
+        box-shadow: 0 0 25px burlywood;
+    }
+
+
+  .blue{      
+     margin-top: 20px;
+        display: inline-block;
+        width: 200px;
+        height: 40px;
+        background-color: transparent;
+        border-radius: 40px;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        letter-spacing: 0.1rem;
+        font-weight: 100px;
+        border: 2px solid rgb(0, 0, 0);
+        transition: 0.3s ease;
+        cursor: pointer;
+    }
+
+    .blue:hover{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 252, 252);
+        box-shadow: 0 0 25px blanchedalmond;
+    }
+    .bwhfoto{
+        padding: 50px;
+    }
+    .bwhfoto p{
+        font-family: "Zalando Sans Expanded", sans-serif;
+        font-size: 10px;
+    }
+    .join{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    display: flex;
+    background-color: blanchedalmond;
+    align-items: center;
+    padding: 20px;
+    border-radius: 35px;
+
+    }
+
+.joh{
+    margin-top: 20px;
+        display: inline-block;
+        width: 200px;
+        height: 30px;
+        background-color: blanchedalmond;
+        border-radius: 30px;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        letter-spacing: 0.2rem;
+        font-weight: 100px;
+        border: 2px solid rgb(0, 0, 0);
+        transition: 0.3s ease;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .joh:hover{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 252, 252);
+        box-shadow: 0 0 25px burlywood;
+    }
+
+footer{
+
+footer .last{
+    color: white;
+     display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+ footer .kata{
+   flex: 1; 
+    font-size: 3x;
+    padding: 30px;
+    font-family: dm;
+    font-weight: 400;
+
+}
+.social-icons a{
+        display: relative;
+        justify-content: center;
+        align-items: center;
+        width: 4 em;
+        height: 4 em;
+        right: 70px;
+        background-color: transparent;
+        border: transparent;
+        border-radius: 50%;
+        margin: 10px 30px 0 0;
+        transition: 0.3s ease;
+        color: #000000;  
+      }  
+
+    .social-icons a:hover {
+        color: #000000;
+        transform: scale(1.2)translateY(-5px);
+        background-color: transparent;
+        box-shadow: 0 0 25px rgb(249, 249, 0);
+    }
